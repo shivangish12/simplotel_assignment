@@ -12,6 +12,7 @@
       <a href="#">
         <img class="logo" alt="Phoenix logo" src="assets/logo.png" />
       </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#home">Home</a></li>
@@ -32,6 +33,23 @@
           <img class="logo" alt="Whatsapp" src="assets/Whatsapp.jpg" />
         </a>
       </social>
+      <div class="mobile-menu">
+        <div class="mobile-menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="mobile-menu-list" id="mobileMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#restaurant">Restaurant</a></li>
+          <li><a href="#testimonials">Testimonial</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById("mobileMenu");
+          menu.classList.toggle("show");
+        }
+      </script>
     </header>
 
     <section class="section-hero">

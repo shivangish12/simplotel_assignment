@@ -44,16 +44,45 @@
 
 /* Mobile devices (portrait) */
 @media only screen and (max-width: 768px) {
-  .header {
-    gap: 2px;
+  .main-nav {
+    display: none;
   }
-  .main-nav-list {
-    gap: 0.2rem;
+
+  .social {
+    display: none;
   }
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    font-weight: 200;
-    font-size: 0.5rem;
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .mobile-menu-list {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .mobile-menu-list li {
+    padding: 10px 20px;
+  }
+
+  .mobile-menu-list li a {
+    color: green;
+    text-decoration: none;
+  }
+
+  .mobile-menu-list.show {
+    display: block;
   }
 
   .hero-description {
@@ -102,5 +131,28 @@
   }
   .section-heading {
     font-size: 2.5rem;
+  }
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  #menu-toggle:checked + .main-nav {
+    display: block;
+  }
+
+  .main-nav-list li {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block; /* Show menu icon for mobile */
+    cursor: pointer;
   }
 }

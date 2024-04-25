@@ -36,6 +36,9 @@ body {
   transition: all 0.3s;
   display: inline-block;
 }
+.mobile-menu {
+  display: none;
+}
 
 .section-hero {
   background-color: #d3d3d3;
