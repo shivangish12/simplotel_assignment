@@ -12,7 +12,7 @@ body {
 }
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   height: 4.5rem;
@@ -20,7 +20,17 @@ body {
 .logo {
   height: 6rem;
 }
-
+.social {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.social-media {
+  height: 1.5rem;
+  padding: 0.2rem;
+  border: solid black;
+  border-radius: 50%;
+}
 .main-nav-list {
   list-style: none;
   display: flex;
