@@ -1,5 +1,5 @@
 /* Tablets  */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .main-nav-list {
     list-style: none;
     display: flex;
@@ -19,6 +19,7 @@
 
   .hero-heading {
     padding: 1.1rem 3rem 1.1rem 3rem;
+    bottom: 10%;
   }
 
   .section-heading {
@@ -41,6 +42,58 @@
     padding: 0rem;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .hero-description {
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .hero-heading {
+    padding: 1.1rem 3rem 1.1rem 3rem;
+    bottom: 50%;
+  }
+
+  .section-heading {
+    padding: 3rem 0 3rem 3rem;
+  }
+  .details {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .details-rooms,
+  .details-pools,
+  .details-dining {
+    width: auto;
+    text-align: center;
+    padding: 0rem;
+  }
+
+  .rooms-img,
+  .pools-img,
+  .dining-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description-rooms,
+  .description-pools,
+  .description-dining {
+    text-align: center;
+  }
+}
 
 /* Mobile devices (portrait) */
 @media only screen and (max-width: 768px) {
@@ -54,7 +107,7 @@
   .mobile-menu-toggle {
     display: block;
     cursor: pointer;
-    color: red;
+    color: black;
   }
 
   .mobile-menu-list.show {
@@ -67,6 +120,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 0.8rem;
+    padding-right: 2rem;
   }
 
   .hero-description {
@@ -77,8 +131,8 @@
   }
 
   .hero-heading {
-    left: 40%;
-    bottom: 0%;
+    left: 20%;
+    bottom: 30%;
     transform: translateX(-60%);
     font-size: 1rem;
     padding: 0.8rem 2rem 0.8rem 2rem;
@@ -138,5 +192,10 @@
   .menu-icon {
     display: block; /* Show menu icon for mobile */
     cursor: pointer;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .hero-heading {
+    bottom: 20%;
   }
 }
