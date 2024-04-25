@@ -37,11 +37,6 @@ body {
   display: inline-block;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #1e90ff;
-}
-
 .section-hero {
   background-color: #d3d3d3;
   width: 100%;
