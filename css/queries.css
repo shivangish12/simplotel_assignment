@@ -1,9 +1,16 @@
-/* Tablets (landscape) */
+/* Tablets  */
 @media only screen and (max-width: 1024px) {
   .main-nav-list {
+    list-style: none;
+    display: flex;
     gap: 2rem;
+    align-items: center;
   }
-
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 700;
+    font-size: 1rem;
+  }
   .hero-description {
     padding: 3rem;
     font-size: 1rem;
@@ -38,9 +45,12 @@
 /* Mobile devices (portrait) */
 @media only screen and (max-width: 768px) {
   .main-nav-list {
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: center;
+    gap: 0.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-weight: 500;
+    font-size: 0.8rem;
   }
 
   .hero-description {
