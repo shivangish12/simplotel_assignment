@@ -1,0 +1,149 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #d3d3d3;
+}
+.section-hero,
+.section-details {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 4.5rem;
+}
+.logo {
+  height: 6rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 800;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #1e90ff;
+}
+
+.section-hero {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 60rem;
+}
+.hero-img {
+  width: 100vw;
+  height: 47rem;
+  object-fit: cover;
+  object-position: center 70%;
+}
+.hero-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  gap: 8rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+p {
+  text-align: center;
+}
+
+.hero-heading {
+  position: absolute;
+  bottom: -5%;
+  left: 8%;
+  z-index: 1;
+  color: white;
+  font-weight: 800;
+  font-size: 1.9rem;
+  background: linear-gradient(to right, black, gray);
+  padding: 1.1rem 7rem 1.1rem 7rem;
+}
+
+.section-details {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d3dd;
+}
+.section-heading {
+  font-weight: 800;
+  font-size: 3.5rem;
+  padding: 3rem 0 3rem 5rem;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  padding-bottom: 5rem;
+}
+.details-rooms {
+  padding-left: 5rem;
+  text-align: left;
+}
+.details-dining {
+  text-align: center;
+}
+.details-pools {
+  padding-right: 5rem;
+  text-align: right;
+}
+.details-rooms,
+.details-pools,
+.details-dining {
+  width: 25rem;
+}
+.dining-img,
+.rooms-img,
+.pools-img {
+  width: 25rem;
+}
+h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.description-rooms {
+  text-align: left;
+}
+.description-pools {
+  text-align: right;
+}
+.description-dining {
+  text-align: center;
+}
+.description-rooms,
+.description-pools,
+.description-dining {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+  text-align: center;
+}
