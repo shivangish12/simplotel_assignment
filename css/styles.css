@@ -49,6 +49,7 @@ body {
   height: 47rem;
   object-fit: cover;
   object-position: center 70%;
+  z-index: -1;
 }
 .hero-description {
   display: flex;
