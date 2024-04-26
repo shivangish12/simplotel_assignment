@@ -2,8 +2,7 @@
 @media only screen and (max-width: 1550px) {
   
    .details {
-   
-    gap: 2rem;
+    gap: 1rem;
   }
    .details-rooms,
   .details-pools,
