@@ -91,6 +91,7 @@ p {
   width: 100vw;
   height: 100%;
   background-color: #d9d3dd;
+  position:relative;
 }
 .section-heading {
   font-weight: 800;
@@ -103,7 +104,8 @@ p {
   justify-content: space-between;
   gap: 5rem;
   padding-bottom: 5rem;
-  width: 100vw;
+  position:absolute;
+  width:100%;
 }
 .details-rooms {
   padding-left: 5rem;
