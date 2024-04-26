@@ -1,9 +1,14 @@
 
 @media only screen and (max-width: 1550px) {
+  
+   .details {
+   
+    gap: 2rem;
+  }
    .details-rooms,
   .details-pools,
   .details-dining {
-    width: 18rem;
+    width: 20rem;
     text-align: center;
     padding: 0rem;
   }
@@ -11,7 +16,7 @@
   .rooms-img,
   .pools-img,
   .dining-img {
-    width: 18rem;
+    width: 20rem;
     height: auto;
   }
 }
