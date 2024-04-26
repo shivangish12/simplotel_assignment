@@ -3,7 +3,7 @@
    .details-rooms,
   .details-pools,
   .details-dining {
-    width: auto;
+    width: 20rem;
     text-align: center;
     padding: 0rem;
   }
@@ -11,7 +11,7 @@
   .rooms-img,
   .pools-img,
   .dining-img {
-    width: 100%;
+    width: 20rem;
     height: auto;
   }
 }
