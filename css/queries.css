@@ -1,3 +1,20 @@
+
+@media only screen and (max-width: 1550px) {
+   .details-rooms,
+  .details-pools,
+  .details-dining {
+    width: auto;
+    text-align: center;
+    padding: 0rem;
+  }
+
+  .rooms-img,
+  .pools-img,
+  .dining-img {
+    width: 100%;
+    height: auto;
+  }
+}
 /* Tablets  */
 
 @media only screen and (max-width: 1280px) {
